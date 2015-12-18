@@ -1,0 +1,14 @@
+p {
+    height: 100px;
+    width: 100%;
+    overflow: hidden;
+    margin: 5px;
+    border: 1px solid black;
+    background-color: blue;
+    font-weight: 25%;
+    text-align: center;
+}
+
+p:empty {
+    background-color: red;
+}
